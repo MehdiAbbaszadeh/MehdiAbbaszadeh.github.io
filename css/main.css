@@ -134,6 +134,29 @@ footer a:not(.nav-link) {
   word-wrap: break-word;
 }
 
+.timeline-card-orange {
+  border-left-color: #e9573f;
+}
+
+.timeline-card-orange::after {
+  background-color: #e9573f;
+  border-color: #e9573f;
+}
+
+.timeline-card-orange::before {
+  border-color: #e9573f;
+}
+
+.credential {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.color-dark{
+  color: #000;
+}
+
 @media (min-width: 48em) {
   .site-title {
     float: left;
